@@ -156,15 +156,39 @@ def truncate_entries(entries, max_entries):
 
 def gpt_summary(query,model,language):
     if language == "zh":
-        messages = [
-            {"role": "user", "content": query},
-            {"role": "assistant", "content": f"请用中文总结这篇文章，先提取出{keyword_length}个关键词，在同一行内输出，然后换行，用中文在{summary_length}字内写一个包含所有要点的总结，按顺序分要点输出，并按照以下格式输出'<br><br>总结:'，<br>是HTML的换行符，输出时必须保留2个，并且必须在'总结:'二字之前"}
-        ]
+        system_prompt = "你是一个专业的文本总结助手。请用中文总结文章，提取关键词，并按指定格式输出。"
+        user_prompt = f"""请用中文总结这篇文章：
+
+1. 先提取出 {keyword_length} 个关键词，在同一行内输出
+2. 换行后，用中文在 {summary_length} 字内写一个包含所有要点的总结
+3. 按顺序分要点输出
+4. 按照以下格式输出：
+<br><br>总结:
+（注意：<br>是HTML的换行符，输出时必须保留2个，且必须在'总结:'二字之前）
+
+文章内容：
+{query}
+"""
     else:
-        messages = [
-            {"role": "user", "content": query},
-            {"role": "assistant", "content": f"Please summarize this article in {language} language, first extract {keyword_length} keywords, output in the same line, then line break, write a summary containing all the points in {summary_length} words in {language}, output in order by points, and output in the following format '<br><br>Summary:' , <br> is the line break of HTML, 2 must be retained when output, and must be before the word 'Summary:'"}
-        ]
+        system_prompt = "You are a professional text summarization assistant. Please summarize the article in English, extract keywords, and output in the specified format."
+        user_prompt = f"""Please summarize this article in English:
+
+1. First, extract {keyword_length} keywords and output them in the same line
+2. After a line break, write a summary in {summary_length} words in English that contains all the key points
+3. Output by points in order
+4. Output in the following format:
+<br><br>Summary:
+(Note: <br> is an HTML line break, 2 must be retained when output, and must be before the word 'Summary:')
+
+Article content:
+{query}
+"""
+
+    # 构建消息
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt}
+    ]
     if not OPENAI_PROXY:
         client = OpenAI(
             api_key=OPENAI_API_KEY,

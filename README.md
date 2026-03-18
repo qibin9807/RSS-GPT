@@ -55,4 +55,5 @@ These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/R
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there are any questions using the script or any suggestions.
 
-- https://ieeexplore.ieee.org/rss/TOC10723156.XML -> https://qibin9807.github.io/RSS-GPT/IEEE TCB.xml
+- https://ieeexplore.ieee.org/rss/TOC10723156.XML -> https://qibin9807.github.io/RSS-GPT/ieee_tcb.xml
+- https://rss.arxiv.org/rss/cs.AI -> https://qibin9807.github.io/RSS-GPT/arxiv_ai.xml

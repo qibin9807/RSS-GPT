@@ -52,4 +52,5 @@
 
 <a href="https://www.buymeacoffee.com/yinan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-- https://ieeexplore.ieee.org/rss/TOC10723156.XML -> https://qibin9807.github.io/RSS-GPT/IEEE TCB.xml
+- https://ieeexplore.ieee.org/rss/TOC10723156.XML -> https://qibin9807.github.io/RSS-GPT/ieee_tcb.xml
+- https://rss.arxiv.org/rss/cs.AI -> https://qibin9807.github.io/RSS-GPT/arxiv_ai.xml

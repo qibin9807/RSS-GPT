@@ -1,0 +1,72 @@
+------------------------------------------------------
+Started: 2026-03-18 12:27:28.706173
+Existing_entries: 0
+Fetching from https://ieeexplore.ieee.org/rss/TOC10723156.XML
+Token length: 1596
+Summarized using mimo-v2-flash
+Append: [Nearest Neighbor CCP-Based Molecular Sequence Analysis](http://ieeexplore.ieee.org/document/11204801)
+Token length: 1322
+Summarized using mimo-v2-flash
+Append: [GEXPNET: A Novel Gene EXPression NETwork for Tumor Classification Using the ResNet-Based Deep Learning Approach](http://ieeexplore.ieee.org/document/11299426)
+Token length: 1721
+Summarized using mimo-v2-flash
+Append: [UniGEN-DDI: Computing Drug-Drug Interactions Using a Unified Graph Embedding Network](http://ieeexplore.ieee.org/document/11245209)
+Token length: 1488
+Summarized using mimo-v2-flash
+Append: [GTLSTMEP: A Novel Model Based on Graph Transformer and bi-LSTM for Predicting Essential Proteins in Sampled Subgraphs](http://ieeexplore.ieee.org/document/11250712)
+Token length: 1731
+Summarized using mimo-v2-flash
+Append: [Allosteric Rate Control of Chaos Governs Reaction Rate Kinetics](http://ieeexplore.ieee.org/document/11250913)
+Token length: 1734
+Summarized using mimo-v2-flash
+Append: [ASAP-ML: Antibiotic Susceptibility and Antibiogram Prediction With Machine Learning Methods](http://ieeexplore.ieee.org/document/11251049)
+Token length: 1374
+Summarized using mimo-v2-flash
+Append: [GAT-HiC: Efficient Reconstruction of 3D Chromosome Structure via Residual Graph Attention Neural Networks](http://ieeexplore.ieee.org/document/11250716)
+Token length: 1449
+Summarized using mimo-v2-flash
+Append: [Sequence to Location: Protein Subcellular Localization Driven by Deep Pretrained Language Model](http://ieeexplore.ieee.org/document/11259085)
+Token length: 1167
+Summarized using mimo-v2-flash
+Append: [Effect Size-Driven Pathway Meta-Analysis for Gene Expression Data](http://ieeexplore.ieee.org/document/11266948)
+Token length: 1101
+Summarized using mimo-v2-flash
+Append: [scDBImpute: Dual-Branch Imputation for Single-Cell RNA-Seq Data Dropouts](http://ieeexplore.ieee.org/document/11267492)
+Append: [Single-Cell Multi-View Clustering via Community Detection With Unknown Number of Clusters](http://ieeexplore.ieee.org/document/11267275)
+Append: [The Pathway-Informed Deep Learning Models in Cancer Research: A Survey](http://ieeexplore.ieee.org/document/11261856)
+Append: [iDRKAN: Interpretable miRNA-Disease Association Prediction Based on Dual-Graph Representation Learning and Kolmogorov–Arnold Network](http://ieeexplore.ieee.org/document/11259081)
+Append: [Spatial Hierarchical Protein-Protein Interaction Site Prediction Using Squeeze-and-Excitation Capsule Networks](http://ieeexplore.ieee.org/document/11271551)
+Append: [A Graph Attention Network-Based Spatial Decomposition Method for Drug Repositioning](http://ieeexplore.ieee.org/document/11267120)
+Append: [Integration of Multi-Omics Data With Topology Adaptive Graph Convolutional Network for Cancer Driver Gene Identification](http://ieeexplore.ieee.org/document/11270241)
+Append: [Graph Theory Approach for the Control of COVID-19 Diffusion](http://ieeexplore.ieee.org/document/11271783)
+Append: [EPILOGUE: Multi-View Graph Contrastive Learning for Gene Function Prediction](http://ieeexplore.ieee.org/document/11271856)
+Append: [ProtoDiff: Prototypical Diffusion Model for Few-Shot Molecular Image Generation](http://ieeexplore.ieee.org/document/11271188)
+Append: [MMFF-DDI: A Multi-Modal Fusion Framework for Drug-Drug Interaction Event Prediction With Contrastive Learning](http://ieeexplore.ieee.org/document/11271593)
+Append: [FNatPred: A Data-Driven Approach for Distinguishing Between NAT and Tumor on the Fungal Microbiome](http://ieeexplore.ieee.org/document/11275665)
+Append: [A Novel Drug Repositioning Method Using Meta-Path Aggregating via Hierarchical Attention Mechanism](http://ieeexplore.ieee.org/document/11275856)
+Append: [SOCAR: Network-Based Computational Framework to Overcome Acquired Tamoxifen Resistance of MCF7 Cells](http://ieeexplore.ieee.org/document/11278759)
+Append: [H$^{3}$CDR : An Anti-Cancer Drug Response Prediction Model Driven by Heterogeneous and Homogeneous Hybrid Graph Neural Network](http://ieeexplore.ieee.org/document/11293809)
+Append: [Synthetic Assessment of Transfer Learning Method From Cell Lines to Single-Cell on Drug Response Prediction](http://ieeexplore.ieee.org/document/11282492)
+Append: [iDeep-Cancer: Predicting Cancer-Related circRNA-RBP Binding Sites Using a Hybrid Network Framework](http://ieeexplore.ieee.org/document/11295939)
+Append: [DeepNhKcr: Explainable Deep Learning Framework for the Prediction of Crotonylation Sites of Non-Histone Lysine in Plants Based on Pre-Trained Protein Language Model](http://ieeexplore.ieee.org/document/11300848)
+Append: [Multi-DeepProtGraphGO: Integrating GCN on PPI Networks With Sequence-Driven Convolutional Bi-LSTM and Attention for Protein Function Prediction](http://ieeexplore.ieee.org/document/11300816)
+Append: [A Proximal Multi-Objective Optimization Method for Incorporation of Polygenic Breeding Values in Genomic Prediction](http://ieeexplore.ieee.org/document/11288015)
+Append: [A Multi-Modal Contrastive Learning Framework for Cyclic Peptide Permeability Prediction](http://ieeexplore.ieee.org/document/11298434)
+Append: [SMENET: A Multi-View Semantic Model for Multi-Level Enzyme Function Prediction](http://ieeexplore.ieee.org/document/11299574)
+Append: [DriverMONI: Cancer Driver Gene Prediction With Multimodal Deep Learning Integrating Multiomics Data and Condition-Specific Network Information](http://ieeexplore.ieee.org/document/11300814)
+Append: [HECLCDA:CircRNA–Drug Sensitivity Prediction via Heterogeneous Cross-Scale Contrastive Learning](http://ieeexplore.ieee.org/document/11300978)
+Append: [MOCT: A Multi-Class Oblique Tree Algorithm for Synergistic Drug Combination Prediction](http://ieeexplore.ieee.org/document/11303859)
+Append: [DeepR2OM: Accurate Recognition for RNA 2′-O-Methylation Sites in Human Genome Using Deep Learning](http://ieeexplore.ieee.org/document/11313582)
+Append: [MISF: Multimodal Data Integration Through Adaptive Similarity Learning and Matrix Factorization](http://ieeexplore.ieee.org/document/11303105)
+Append: [SG-DCNN: A Deep Learning Method Integrating Self-Attention Mechanism and Generative Adversarial Network for Predicting Ion-Ligand Binding Residues in Small Samples](http://ieeexplore.ieee.org/document/11303098)
+Append: [GALA: Integrating Weighted Graph Walks and Latent-Space Adversarial Training for Single-Cell Batch Alignment](http://ieeexplore.ieee.org/document/11304553)
+Append: [Multi-Head Hypergraph Convolution With Feature Enhancement and Latent Representation Learning for miRNA–Disease Association Prediction](http://ieeexplore.ieee.org/document/11304175)
+Append: [Asynchronous Controllability of Non-Homogeneous Markov Switch Generalized Asynchronous Boolean Control Networks With Deterministic Dwell Time](http://ieeexplore.ieee.org/document/11310804)
+Append: [HHGSynergy: An Adaptive Heterogeneous Hypergraph Representation Learning Method for Anticancer Drug Synergy Prediction](http://ieeexplore.ieee.org/document/11315146)
+Append: [Drug Effect Classification Using Frequency-Based Graph Traversal Approach](http://ieeexplore.ieee.org/document/11316391)
+Append: [Multimodal Hypergraph Representation Learning for Drug Synergy Prediction](http://ieeexplore.ieee.org/document/11316844)
+Append: [Efficient Tuning Framework for Resource- Constrained Biomedical Question Answering](http://ieeexplore.ieee.org/document/11328997)
+Append: [Dynamic Bernstein GCN for Pan-Cancer Subtype Classification Using RNA-Seq and CNV Data](http://ieeexplore.ieee.org/document/11340709)
+Append: [2025 Reviewers List*](http://ieeexplore.ieee.org/document/11372648)
+append_entries: 46
+Finish: 2026-03-18 12:28:00.646082

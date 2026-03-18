@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>IEEE Transactions on Computational Biology and Bioinformatics - new TOC</title>
+<link>http://ieeexplore.ieee.org</link>
+
+<item>
+<title>Nearest Neighbor CCP-Based Molecular Sequence Analysis</title>
+<link>http://ieeexplore.ieee.org/document/11204801</link>
+<guid>http://ieeexplore.ieee.org/document/11204801</guid>
+<content:encoded><![CDATA[
+
+Molecular sequence analysis is crucial for understanding several biological processes, including protein-protein interactions, functional annotation, and disease classification. The large number of sequences and the inherently complicated nature of protein structures make it challenging to analyze such data. Finding patterns and enhancing subsequent research requires the use of dimensionality reduction and feature selection approaches. Recently, a method called Correlated Clustering and Projection (CCP) has been proposed as an effective method for biological sequencing data. The CCP technique remains computationally expensive, despite its effectiveness for sequence visualization. Furthermore, its utility for classifying molecular sequences is still uncertain. To solve these two problems, we present a Nearest-Neighbor Correlated Clustering and Projection (CCP-NN)-based technique for efficiently preprocessing molecular sequence data. To group related molecular sequences and produce representative supersequences, CCP makes use of sequence-to-sequence correlations. As opposed to conventional methods, CCP does not rely on matrix diagonalization, therefore, it can be applied to a range of machine-learning problems. We estimate the density map and compute the correlation using a nearest-neighbor search technique. We perform a molecular sequence classification using CCP and CCP-NN representations to assess the efficacy of our proposed approach. Our findings show that CCP-NN considerably improves classification accuracy and significantly outperforms CCP in computational runtime.
+]]></content:encoded>
+<pubDate>WED, 15 OCT 2025 09:16:33 -0400</pubDate>
+<pubDate>WED, 15 OCT 2025 09:16:33 -0400</pubDate>
+</item>
+<item>
+<title>GEXPNET: A Novel Gene EXPression NETwork for Tumor Classification Using the ResNet-Based Deep Learning Approach</title>
+<link>http://ieeexplore.ieee.org/document/11299426</link>
+<guid>http://ieeexplore.ieee.org/document/11299426</guid>
+<content:encoded><![CDATA[
+
+Accurate classification of cancer subtypes from microarray gene expression data remains challenging due to high dimensionality, class imbalance, and limited sample sizes. To address these issues, we propose GexpNet, a novel deep learning architecture specifically designed for gene expression analysis. GexpNet integrates an initial convolutional layer with dynamic multi-head residual blocks that employ heterogeneous kernel sizes and activation functions. These are followed by an adaptive dense classifier, enabling effective multi-scale feature extraction and robust classification. To reduce noise and overfitting, a customized preprocessing pipeline is introduced, comprising median imputation, quantile normalization, and supervised feature selection based on logistic regression. Evaluated on four publicly available datasets, GexpNet achieves 98.99% accuracy (95% CI: 98.57–99.43% ) and 98.26% F1-score (95% CI: 97.51–99.01% ) on the Mendeley dataset, outperforming prior deep learning models by up to 1.99% . Across three additional datasets, GexpNet consistently exceeds 99% accuracy with minimal variance in 10-fold cross-validation, confirming its robustness and generalizability. Overall, these results highlight GexpNet as a robust, scalable, and generalizable framework for precision oncology applications.
+]]></content:encoded>
+<pubDate>FRI, 12 DEC 2025 09:16:46 -0400</pubDate>
+<pubDate>FRI, 12 DEC 2025 09:16:46 -0400</pubDate>
+</item>
+<item>
+<title>UniGEN-DDI: Computing Drug-Drug Interactions Using a Unified Graph Embedding Network</title>
+<link>http://ieeexplore.ieee.org/document/11245209</link>
+<guid>http://ieeexplore.ieee.org/document/11245209</guid>
+<content:encoded><![CDATA[
+
+Finding drug-drug interaction is crucial for patient safety and treatment efficacy. Two drugs may show a synergistic effect but may sometimes cause a severe health issue, including lethality. Wet lab studies are often performed to understand such interactions but are limited by cost and time. However, the biochemical data generated can be explored to compute unknown interactions. Here, we developed a computational model named UniGEN-DDI (Unified Graph Embedding Network for Drug-Drug Interaction) for the estimation of interactions between drugs. It is a simple unified network model containing the biochemical information of drug association developed using the compiled data from DrugBank 5.1.0. The feature learning of the drugs was carried out using a combination of GraphSAGE and Node2Vec algorithms, which were found efficient in extracting diverse features. The simple architecture of our model led to a significant reduction in computational time compared to the baselines, while maintaining a high prediction accuracy. The model performed well on the data, which was equally distributed between interacting and non-interacting drugs. As a more challenging evaluation, we performed non-overlapping splitting of the data based on the drug action on different parts of the body, and our model performed well in both interaction estimation and time efficiency. Our model successfully identified 15 previously unknown drug interactions in DrugBank 5.1.0 in the top 20 estimates (75% correct prediction), which were confirmed from experimental studies in updated DrugBank 6.0. In the top 50 estimates, 68% of the unknown drug interactions were correctly identified that showcased a strong performance of our model.
+]]></content:encoded>
+<pubDate>THU, 13 NOV 2025 09:15:57 -0400</pubDate>
+<pubDate>THU, 13 NOV 2025 09:15:57 -0400</pubDate>
+</item>
+<item>
+<title>GTLSTMEP: A Novel Model Based on Graph Transformer and bi-LSTM for Predicting Essential Proteins in Sampled Subgraphs</title>
+<link>http://ieeexplore.ieee.org/document/11250712</link>
+<guid>http://ieeexplore.ieee.org/document/11250712</guid>
+<content:encoded><![CDATA[
+
+Predicting essential proteins is crucial for identifying disease-causing genes and advancing drug discovery. However, existing methods face challenges, such as insufficient capture of biological properties, class imbalance, incomplete representation of network topology, and inadequate utilization of edge features. To address these limitations, we propose a novel model, GTLSTMEP, which combines Graph Transformer (GT) and Bidirectional Long Short-Term Memory (bi-LSTM). GTLSTMEP leverages biological data—including subcellular localization, protein complexes, and gene expression profiles—to initialize node and edge features. A subgraph batch sampling approach is employed to handle class imbalance. The bi-LSTM module processes time-series gene expression data, while the GT module captures global topological features using Laplacian positional encodings and local topological features through an attention mechanism that automatically identifies neighboring nodes’ characteristics. Additionally, edge features are integrated to enhance the learning of protein interactions. The node features extracted from these two modules are then fed into a Multi-Layer Perceptron (MLP) for essential protein prediction. Experimental results demonstrate that GTLSTMEP outperforms all comparative methods. For instance, on the DIP dataset, GTLSTMEP achieves an $AUC$ that is 17.64% higher than the next-best model. Ablation studies further confirm the effectiveness of each component of GTLSTMEP.
+]]></content:encoded>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+</item>
+<item>
+<title>Allosteric Rate Control of Chaos Governs Reaction Rate Kinetics</title>
+<link>http://ieeexplore.ieee.org/document/11250913</link>
+<guid>http://ieeexplore.ieee.org/document/11250913</guid>
+<content:encoded><![CDATA[
+
+Objective: Models of metabolic systems have been encapsulated by reaction rate theory, stochastic reaction models, and dynamic flux estimation, amongst others, based on the foundation of Michaelis-Menten kinetics. The limitations of these approaches are well understood and can be summarised as the sole dependent relation with substrate concentration, the encapsulation of rate in a single relevant scalar, and the subsequent lack of functional control that results from the steady-state assumption. Methods: The Rate Control of Chaos (RCC) is a nonlinear control method that has been shown to be effective in controlling the dynamic state of nonlinear oscillators based on the concept of rate limitation of the exponential growth in chaotic systems. The method is extended with allosteric properties into Allosteric Rate Control of Chaos (ARCC) to allow robust control of the enzymatic process. Results: ARCC fully replicates the Michaelis-Menten kinetics as well as allosteric control. The emergent dynamics is insensitive to perturbations and noise but susceptible to regulatory adjustments. This method adapts the control parameters dynamically in the presence of a substrate and a ligand, and permits introduction of energy relations into the control function. Conclusion: The ARCC method more closely resembles biochemical properties of enzyme mediated reactions and removes the need for quasi-steady-state assumptions and allows the modelling of complex dynamic metabolic systems. Significance: The dynamic nature of the control enables the modelling of the entire complex dynamics of metabolic systems as a large scale free system, potentially addressing metabolic disorders and explain the behaviour of metabolic control.
+]]></content:encoded>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+</item>
+<item>
+<title>ASAP-ML: Antibiotic Susceptibility and Antibiogram Prediction With Machine Learning Methods</title>
+<link>http://ieeexplore.ieee.org/document/11251049</link>
+<guid>http://ieeexplore.ieee.org/document/11251049</guid>
+<content:encoded><![CDATA[
+
+Antimicrobial resistance (AMR) is a global health problem that poses a threat for now and poses an even greater threat for the future. Since the discovery of the first antibiotics, pathogens have developed different mechanisms of resistance against antibiotics. Today, the technology to understand the mechanisms of AMR and their genomics is more competent than ever. This paper provides a wide range of information about using genomic data combined with machine learning for predicting antibiotic resistance and proposes a multi-model approach ASAP (Antibiotic Susceptibility and Antibiogram Prediction) for creating antibiograms. In this work, 10 different machine learning models, including Convolutional Neural Network, Nearest Neighbor, Random Forest, XGBoost, CatBoost, Naive Bayes, Support Vector Machines, Light Gradient Boosting Machine, Gradient Boost, and Logistic Regression, have been tested, evaluated, and compared for their predictive capabilities. For data preprocessing, different methods of feature extraction through n-gram encoding have been tested. For the evaluation of the models, accuracy, recall, precision, and F1 scores are used. Experiments show that models can predict the antibiotic resistance of a given pathogen sequence with up to 0.99 accuracy and 0.90+ macro average recall. The best performing model for this work has been XGBoost with 0.99 accuracy, and the least predictive model has been Naive Bayes with 0.89 accuracy. Our proposed method results shows that machine learning with gene sequences are promising tools to improve the current manual antibiogram creation, maintenance process and can provide healthcare professionals with valuable insights for less empirical antibiotic prescribing.
+]]></content:encoded>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+</item>
+<item>
+<title>GAT-HiC: Efficient Reconstruction of 3D Chromosome Structure via Residual Graph Attention Neural Networks</title>
+<link>http://ieeexplore.ieee.org/document/11250716</link>
+<guid>http://ieeexplore.ieee.org/document/11250716</guid>
+<content:encoded><![CDATA[
+
+Hi-C is an experimental technique to measure the genome-wide topological dynamics and three-dimensional (3D) shape of chromosomes indirectly via counting the number of interactions between distinct sets of loci. One can estimate the 3D shape of a chromosome over these indirect interaction datasets. Here, we come up with graph attention and residual network-based GAT-HiC to predict three-dimensional chromosome structure from Hi-C interactions. GAT-HiC is distinct from the existing 3D chromosome shape prediction approaches in a way that it can generalize to data that is different than train data. So, we can train GAT-HiC on one type of Hi-C interaction matrix and infer on a completely dissimilar interaction matrix. GAT-HiC combines the unsupervised vertex embedding method Node2vec with an attention-based graph neural network when predicting each genomic loci's three-dimensional coordinates from Hi-C interaction matrix. We test the performance of our method across multiple Hi-C interaction datasets, where a trained model can be generalized across distinct cell populations, distinct restriction enzymes, and distinct Hi-C resolutions over human and mouse. GAT-HiC can reconstruct accurately in all these scenarios. Our method outperforms the existing approaches in terms of the accuracy of three-dimensional chromosome shape inference over interaction datasets.
+]]></content:encoded>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+<pubDate>MON, 17 NOV 2025 09:16:07 -0400</pubDate>
+</item>
+<item>
+<title>Sequence to Location: Protein Subcellular Localization Driven by Deep Pretrained Language Model</title>
+<link>http://ieeexplore.ieee.org/document/11259085</link>
+<guid>http://ieeexplore.ieee.org/document/11259085</guid>
+<content:encoded><![CDATA[
+
+Proteins serve as the essential executors of cellular activities, and their mislocalization often resulting in diverse diseases. Traditional methods for determining protein subcellular localization are noted for their time-consuming, labor-intensive, and complex nature. To address these challenges, this study introduces SubLoc, a deep learning-based algorithm for predicting protein subcellular localization. The methodology comprises three key steps: Firstly, leveraging the deep pretrained protein language model ProtT5 to derive protein embedding vectors, thereby capturing intricate patterns and biological functionalities of protein sequences. Secondly, constructing a 3D protein structure graph model using amino acid residue contact relationships within the sequence, which is subsequently processed by a graph convolutional network to effectively manage spatial structural information. Lastly, employing a bidirectional gated recurrent unit and multi-head attention mechanism to analyze sequence features, integrating both structural and sequence data for enhanced subcellular localization prediction. Experimental results demonstrate that SubLoc exhibits exceptional performance in localizing proteins across 10 subcellular compartments, outperforming all comparative methods in terms of precision, recall, and MCC average values. Notably, SubLoc achieves particularly notable results in identifying Cytoplasm and Mitochondrion locations.
+]]></content:encoded>
+<pubDate>WED, 19 NOV 2025 09:16:02 -0400</pubDate>
+<pubDate>WED, 19 NOV 2025 09:16:02 -0400</pubDate>
+</item>
+<item>
+<title>Effect Size-Driven Pathway Meta-Analysis for Gene Expression Data</title>
+<link>http://ieeexplore.ieee.org/document/11266948</link>
+<guid>http://ieeexplore.ieee.org/document/11266948</guid>
+<content:encoded><![CDATA[
+
+The proliferation of omics datasets in public repositories has created unprecedented opportunities for biomedical research but has also posed significant challenges for their integration, particularly due to missing genes and platform-specific discrepancies. Traditional gene expression meta-analysis often focuses on individual genes, leading to data loss and limited biological insights when there are missing genes across different studies. To address these limitations, we propose GSEMA (Gene Set Enrichment Meta-Analysis), a novel methodology that leverages single-sample enrichment scoring to aggregate gene expression data into pathway-level matrices. By applying meta-analysis techniques to enrichment scores, GSEMA preserves the magnitude and directionality of effects, enabling the definition of pathway activity across datasets. Using simulated data and case studies on Systemic Lupus Erythematosus (SLE) and Parkinson’s Disease (PD), we demonstrate that GSEMA outperforms other methods in controlling false positive rates while providing meaningful biological interpretations. GSEMA methodology is implemented as an R package available on CRAN repository.
+]]></content:encoded>
+<pubDate>MON, 24 NOV 2025 09:16:16 -0400</pubDate>
+<pubDate>MON, 24 NOV 2025 09:16:16 -0400</pubDate>
+</item>
+<item>
+<title>scDBImpute: Dual-Branch Imputation for Single-Cell RNA-Seq Data Dropouts</title>
+<link>http://ieeexplore.ieee.org/document/11267492</link>
+<guid>http://ieeexplore.ieee.org/document/11267492</guid>
+<content:encoded><![CDATA[
+
+Single-cell RNA sequencing (scRNA-seq) enables a comprehensive analysis of the expression patterns of individual cells in tissue with the resolution of a single cell. However, “dropouts” will lead to an excess of zeros in the scRNA-seq data due to technical constraints, which could hinder further analysis. Consequently, imputing the dropout values becomes particularly critical in assisting with the recovery of biological information. Herein, we propose a dual-branch imputation method for scRNA-seq data, which helps to impute the drops in scRNA-seq data. Unlike previous methods which assume a preconceived structure guiding to impute the dropouts, we believe that there are linear and non-linear associations that help structure the data, thus, both linear and non-linear pipelines are combined for dropout imputation. The evaluation and comprehensive downstream results on both simulated and real datasets show that our method outperforms the state-of-the-art methods for recovery of gene expression, cell clustering, differential expression analysis, and pseudo-time trajectory analysis tasks.
+]]></content:encoded>
+<pubDate>TUE, 25 NOV 2025 09:16:13 -0400</pubDate>
+<pubDate>TUE, 25 NOV 2025 09:16:13 -0400</pubDate>
+</item>
+<item>
+<title>Single-Cell Multi-View Clustering via Community Detection With Unknown Number of Clusters</title>
+<link>http://ieeexplore.ieee.org/document/11267275</link>
+<guid>http://ieeexplore.ieee.org/document/11267275</guid>
+<content:encoded><![CDATA[
+
+Single-cell multi-view clustering enables the exploration of cellular heterogeneity within the same cell from different views. Despite the development of several multi-view clustering methods, two primary challenges persist. First, most existing methods treat the information from both single-cell RNA (scRNA) and single-cell Assay of Transposase Accessible Chromatin (scATAC) views as equally significant, overlooking the substantial disparity in data richness between the two views. This oversight frequently leads to a degradation in overall performance. Additionally, the majority of clustering methods necessitate manual specification of the number of clusters by users. However, for biologists dealing with cell data, precisely determining the number of distinct cell types poses a formidable challenge. To this end, we introduce scUNC, an innovative multi-view clustering approach tailored for single-cell data, which seamlessly integrates information from different views without the need for a predefined number of clusters. The scUNC method comprises several steps: initially, it employs a cross-view fusion network to create an effective embedding, which is then utilized to generate initial clusters via community detection. Subsequently, the clusters are automatically merged and optimized until no further clusters can be merged. We conducted a comprehensive evaluation of scUNC using six distinct single-cell datasets. The results underscored that scUNC outperforms the other baseline methods.
+]]></content:encoded>
+<pubDate>TUE, 25 NOV 2025 09:16:12 -0400</pubDate>
+<pubDate>TUE, 25 NOV 2025 09:16:12 -0400</pubDate>
+</item>
+<item>
+<title>The Pathway-Informed Deep Learning Models in Cancer Research: A Survey</title>
+<link>http://ieeexplore.ieee.org/document/11261856</link>
+<guid>http://ieeexplore.ieee.org/document/11261856</guid>
+<content:encoded><![CDATA[
+
+Biological pathways play an important role in complex disease research, drug development, and precision medicine. Recently, tens of pathway-informed deep learning models in cancer research have been proposed due to their interpretability and high performance. However, there is still a lack of reviews that have a specific focus on the application strategy of pathway information in the pathway-informed deep learning models. Hence, we surveyed the pathway-informed deep learning models in cancer research. In this survey, the pathway information used in pathway-informed models was summarized into four categories; pathway-informed deep learning models were divided into three major categories and seven subcategories based on the pathway information utilized and the strategies employed for its application. For each subcategory, the application strategy of pathway information is illustrated, and the advantages and disadvantages of the pathway-informed models are summarized. Besides, the commonly used interpretability methods and pathway databases are provided to assist in the design of more effective models. Finally, the challenges faced in developing better pathway-informed deep learning models are presented.
+]]></content:encoded>
+<pubDate>THU, 20 NOV 2025 09:16:05 -0400</pubDate>
+<pubDate>THU, 20 NOV 2025 09:16:05 -0400</pubDate>
+</item>
+<item>
+<title>iDRKAN: Interpretable miRNA-Disease Association Prediction Based on Dual-Graph Representation Learning and Kolmogorov–Arnold Network</title>
+<link>http://ieeexplore.ieee.org/document/11259081</link>
+<guid>http://ieeexplore.ieee.org/document/11259081</guid>
+<content:encoded><![CDATA[
+
+Accurately identifying miRNA-disease association (MDA) is of great importance in biomedical research and clinical applications. However, most existing computational methods rely on similarity, making it difficult to effectively capture the deep semantic information among heterogeneous nodes in complex networks. In addition, the inherent “closed box” nature of traditional deep learning models leads to a lack of transparency in their decision-making process. Therefore, we propose an interpretable MDA prediction method (iDRKAN) based on dual-graph representation learning and Kolmogorov-Arnold Network. First, iDRKAN constructs similarity views and meta-path views based on the similarity matrix and association matrix respectively, and learns higher-order feature representation of each view by graph convolutional network (GCN). Subsequently, the multi-channel attention (MCA) mechanism is introduced to adaptively fuse the contextual information of each similarity view in different convolutional layers, and the semantic layer attention (SLA) mechanism is used to integrate the semantic information contained in different meta-path views. Next, the contrastive learning strategy is used to optimize the consistency between the dual-graph representation. Finally, the dual-graph features are weighted fused, and fed into the interpretable Kolmogorov-Arnold Network (KAN) for prediction. Experimental results on two public datasets show that iDRKAN significantly outperforms existing computational approaches in multiple performance indicators. In addition, experiments with different classifiers verify that iDRKAN achieves a good balance between prediction performance and interpretability. The case study further demonstrates the effectiveness of iDRKAN in mining potential associations.
+]]></content:encoded>
+<pubDate>WED, 19 NOV 2025 09:16:02 -0400</pubDate>
+<pubDate>WED, 19 NOV 2025 09:16:02 -0400</pubDate>
+</item>
+<item>
+<title>Spatial Hierarchical Protein-Protein Interaction Site Prediction Using Squeeze-and-Excitation Capsule Networks</title>
+<link>http://ieeexplore.ieee.org/document/11271551</link>
+<guid>http://ieeexplore.ieee.org/document/11271551</guid>
+<content:encoded><![CDATA[
+
+The discovery of protein-protein interaction (PPI) sites is vital for exploring the principles of PPIs. Developing computational approaches to predict PPI sites can effectively compensate for biological experiments, which are mostly time-consuming and vulnerable-to-noise. In recent years, deep learning has been used to predict PPI sites, by considering the contextual information of target amino acid residues and using a local protein sequence to represent the targets. However, traditional deep-learning techniques, e.g., DNNs and CNNs, disregard important spatial hierarchies contained in the features of protein sequences, leading to their failure to effectively distinguish interaction sites from different residue regions. In this work, we design MSE-CapsPPISP, a new deep-learning model to address PPI site prediction with spatial hierarchies. The key idea of MSE-CapsPPISP is to take into account the hierarchical relationships between the features of protein sequences. We characterize the hierarchical relationships by designing a tailored Capsule Network, which is a novel type of neural network with vector neurons. Moreover, to make the network representation more robust, MSE-CapsPPISP uses multi-scale CNNs to extract multi-scale features of protein sequences and Squeeze-and-Excitation blocks to recalibrate the features. The validation results show that MSE-CapsPPISP outperforms the baseline CNNs-based architecture DeepPPISP and other existing competing schemes in the four key metrics of F1, MCC, AUROC, and AUPR.
+]]></content:encoded>
+<pubDate>MON, 01 DEC 2025 09:15:58 -0400</pubDate>
+<pubDate>MON, 01 DEC 2025 09:15:58 -0400</pubDate>
+</item>
+<item>
+<title>A Graph Attention Network-Based Spatial Decomposition Method for Drug Repositioning</title>
+<link>http://ieeexplore.ieee.org/document/11267120</link>
+<guid>http://ieeexplore.ieee.org/document/11267120</guid>
+<content:encoded><![CDATA[
+
+Computational drug repositioning technology can identify potential uses for existing drugs and reduce the time and cost required in the drug development process. How to find appropriate representations of drugs and diseases to predict the associations between the two is the main objective of such tasks. With the emergence of graph neural networks in recent years, researchers learned drugs and diseases via graphs in a bid to improve the prediction accuracy. However, there are three key problems that have not been adequately studied: 1) They usually place drug-disease association graphs, drug-drug similarity graphs, and disease-disease similarity graphs under the same semantic space for learning, which lose the higher-order features of the different graphs. 2) They assign equal weight to each neighbor node when aggregating based on the drug-disease association graph, but the effect and mechanism of a drug in treating different diseases are not consistent. 3) They adopt residual connections to enhance the role of the root node without considering that this operation amplifies the effect of anomalous features. In view of this, we first propose a graph attention network-based spatial decomposition method for drug repositioning. Specifically, we reduce the dimensions of the feature space by spatial decomposition and initialize the drug and disease embedding in the drug-similarity subspace, disease-similarity subspace, and drug-disease association subspace, respectively. The representations of drugs and diseases are jointly captured in the corresponding subspace based on similarity and therapeutic associations. Moreover, the extent of the associations is measured through the graph attention mechanism to explore higher-order neighborhood relationships between drugs and diseases. Finally, we introduce a targeted residual connection for personalized propagation of node features. Experiments on four benchmark datasets show that our proposed architecture outperforms current state-of-the-art approaches.
+]]></content:encoded>
+<pubDate>MON, 24 NOV 2025 09:16:16 -0400</pubDate>
+<pubDate>MON, 24 NOV 2025 09:16:16 -0400</pubDate>
+</item>
+<item>
+<title>Integration of Multi-Omics Data With Topology Adaptive Graph Convolutional Network for Cancer Driver Gene Identification</title>
+<link>http://ieeexplore.ieee.org/document/11270241</link>
+<guid>http://ieeexplore.ieee.org/document/11270241</guid>
+<content:encoded><![CDATA[
+
+The increasing volume of high-throughput molecular data has presented substantial computational challenges in the identification of cancer driver genes. We introduce ATTAG, a framework based on topology-adaptive graph neural networks with an attention mechanism, aimed at predicting cancer driver genes by integrating multi-omics data with biomolecular networks. ATTAG creates three distinct gene networks derived from protein interactions, gene semantic similarities, and co-occurrence within signaling pathways. Graph convolutional networks (GCNs) are employed to generate low-dimensional embeddings from these networks and multi-omics data. These embeddings are then refined through topology-adaptive graph neural networks for the prediction of cancer driver genes in BLCA. When compared to state-of-the-art methods, ATTAG demonstrates exceptional performance in identifying cancer driver genes. The experimental results underscore its ability to accurately identify both well-known driver genes and novel candidate cancer genes.
+]]></content:encoded>
+<pubDate>THU, 27 NOV 2025 09:18:38 -0400</pubDate>
+<pubDate>THU, 27 NOV 2025 09:18:38 -0400</pubDate>
+</item>
+<item>
+<title>Graph Theory Approach for the Control of COVID-19 Diffusion</title>
+<link>http://ieeexplore.ieee.org/document/11271783</link>
+<guid>http://ieeexplore.ieee.org/document/11271783</guid>
+<content:encoded><![CDATA[
+
+Pandemics often arise from the diffusion of infectious diseases over large regions, spanning multiple continents. Effective non-pharmaceutical interventions (NPIs) at the onset of an outbreak can significantly curb the spread. However, the complexity of human interactions can hinder the strict and timely imposition of such measures. Given the extensive damage caused by COVID-19, it is imperative to develop computational strategies that control and prevent the global spread of infectious diseases. This study proposes a model of COVID-19 spread networks, formulated based on daily confirmed cases per country, with mutual information as a measure of interdependence between countries. Utilizing graph theory, this approach identifies key nodes (countries) that play influential roles in the COVID-19 spread network. A control framework based on network theory is then introduced to mitigate and potentially eradicate further infection spread. Results demonstrate that the proposed framework holds substantial promise in preventing the transmission of COVID-19 and similar outbreaks when implemented promptly.
+]]></content:encoded>
+<pubDate>TUE, 02 DEC 2025 09:16:18 -0400</pubDate>
+<pubDate>TUE, 02 DEC 2025 09:16:18 -0400</pubDate>
+</item>
+<item>
+<title>EPILOGUE: Multi-View Graph Contrastive Learning for Gene Function Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11271856</link>
+<guid>http://ieeexplore.ieee.org/document/11271856</guid>
+<content:encoded><![CDATA[
+
+The integration of biological networks provides crucial support for accurate gene function prediction, a task that aims to assign genes to corresponding functional categories through computational methods. However, existing approaches struggle with multi-source heterogeneous networks due to their limited ability to capture complex nonlinear dependencies. Contrastive learning, which captures data distributions by measuring similarities and dissimilarities between samples, can generate semantically rich feature representations, offering a new approach to address the aforementioned issues. In this work, we propose EPILOGUE, a multi-view graph contrastive learning framework for gene function prediction. By integrating graph neural networks with contrastive learning, EPILOGUE enables the extraction of high-quality, discriminative gene representations for accurate functional annotation. Additionally, protein sequences are used as node features, offering biological information beyond network topology and supporting the learning of comprehensive semantic representations. Experiments on yeast and human datasets from the STRING database demonstrate that EPILOGUE outperforms nine state-of-the-art methods across six evaluation metrics, validating its effectiveness in learning semantically rich representations for gene function annotation.
+]]></content:encoded>
+<pubDate>TUE, 02 DEC 2025 09:16:18 -0400</pubDate>
+<pubDate>TUE, 02 DEC 2025 09:16:18 -0400</pubDate>
+</item>
+<item>
+<title>ProtoDiff: Prototypical Diffusion Model for Few-Shot Molecular Image Generation</title>
+<link>http://ieeexplore.ieee.org/document/11271188</link>
+<guid>http://ieeexplore.ieee.org/document/11271188</guid>
+<content:encoded><![CDATA[
+
+Generating molecules with desired chemical properties is a crucial and promising area of research in drug discovery, as it has the potential to accelerate the identification of novel therapeutic compounds. Recent developments in diffusion models have showcased their remarkable generative capabilities, effectively handling continuous data modalities such as images and audio. However, when it comes to generating discrete data, particularly molecular representations like SMILES strings and molecular graphs, these models encounter significant challenges, especially in few-shot learning scenarios where only a limited number of samples are available. In this paper, we explore the potential of diffusion models for generating continuous representations of molecules—molecular images. Specifically, we propose ProtoDiff, a diffusion-based method that incorporates few-shot learning for molecular image generation. We frame molecular image generation as a few-shot controllable generation problem that extracts prototypes from a limited set of molecules to guide the generation process and introduces a novel sparsity regularization in the objective function of diffusion to emphasize the meaningful pixels of molecules, i.e., the limited pixels of the chemical bonds. We train and evaluate ProtoDiff on the ChEMBL dataset, achieving new state-of-the-art results on the majority of molecular generation tasks.
+]]></content:encoded>
+<pubDate>FRI, 28 NOV 2025 09:16:28 -0400</pubDate>
+<pubDate>FRI, 28 NOV 2025 09:16:28 -0400</pubDate>
+</item>
+<item>
+<title>MMFF-DDI: A Multi-Modal Fusion Framework for Drug-Drug Interaction Event Prediction With Contrastive Learning</title>
+<link>http://ieeexplore.ieee.org/document/11271593</link>
+<guid>http://ieeexplore.ieee.org/document/11271593</guid>
+<content:encoded><![CDATA[
+
+Accurately predicting drug–drug interaction events (DDIEs) is critical for optimizing combination therapies and ensuring drug safety. However, existing methods typically rely on either handcrafted molecular fingerprints or static embeddings from pretrained models, which limits their ability to jointly capture local chemical substructures and three-dimensional geometric features. To overcome these limitations, we propose MMFF-DDI, a multi-modal fusion framework based on contrastive learning for drug–drug interaction event (DDIE) prediction. MMFF-DDI extracts drug representations from three modalities—Morgan fingerprints, canonical SMILES, and 3D molecular graphs—using an attention-augmented autoencoder, a MolFormer encoder, and an Equivariant Graph Neural Network (EGNN), respectively. Furthermore, a contrastive multi-modal integration submodule is designed to transform multi-modal representation learning from a concatenation-based paradigm to an alignment-based paradigm, thereby achieving cross-modal consistency and complementary feature fusion. Experimental results show that MMFF-DDI outperforms the best competitive method (MRGCDDI) in predicting DDIE involving existing drugs, achieving improvements of 7.87% and 7.99% in Macro-F1 and Macro-precision, respectively. Furthermore, MMFF-DDI outperforms the best competitive method (DSN-DDI) in predicting DDIEs involving new drugs, achieving improvements of 8.06% and 12.79% in Macro-F1 and Macro-precision, respectively. Visualization experiments and case studies validate its practical applicability and superior predictive performance.
+]]></content:encoded>
+<pubDate>MON, 01 DEC 2025 09:15:58 -0400</pubDate>
+<pubDate>MON, 01 DEC 2025 09:15:58 -0400</pubDate>
+</item>
+<item>
+<title>FNatPred: A Data-Driven Approach for Distinguishing Between NAT and Tumor on the Fungal Microbiome</title>
+<link>http://ieeexplore.ieee.org/document/11275665</link>
+<guid>http://ieeexplore.ieee.org/document/11275665</guid>
+<content:encoded><![CDATA[
+
+Objective: The role of fungal microbiota in human carcinogenesis remains largely uncharacterized. Recent evidence suggests normal adjacent tissue (NAT) represents an intermediate state between healthy and malignant tissues, highlighting its potential for early cancer detection. Discriminating fungal compositional profiles between tumor and NAT is thus critical for elucidating fungal involvement in oncogenesis. However, the high similarity between tumor and NAT mycobiota poses significant analytical challenges. Method: To overcome this limitation, we developed a two-level ensemble discriminative model. Base-level classifiers, trained using rigorously filtered fungal microbiota data (based on prevalence, abundance, and quality metrics) via Random Forest, generate initial predictions. A meta-level classifier then integrates these base predictions, transforming high-dimensional, sparse fungal feature data into a low-dimensional, dense representation optimized for discrimination. Results: Our approach achieved clear separation between tumor and NAT mycobiomes across multiple cancer types, with particularly pronounced discrimination in colorectal cancer (CRC). The proposed model significantly outperformed existing methods in tumor-NAT classification, demonstrating an average AUC improvement of approximately 10%.
+]]></content:encoded>
+<pubDate>WED, 03 DEC 2025 09:17:46 -0400</pubDate>
+<pubDate>WED, 03 DEC 2025 09:17:46 -0400</pubDate>
+</item>
+<item>
+<title>A Novel Drug Repositioning Method Using Meta-Path Aggregating via Hierarchical Attention Mechanism</title>
+<link>http://ieeexplore.ieee.org/document/11275856</link>
+<guid>http://ieeexplore.ieee.org/document/11275856</guid>
+<content:encoded><![CDATA[
+
+Drug repositioning is an efficient drug discovery method for identifying associations between present drugs and new diseases, offering considerable development time and cost savings. Although existing methods have been widely applied, they fail to fully capture the complex semantics between drugs and diseases, and are deficient in terms of model interpretability. In this paper, we propose a novel method using a hierarchical attention mechanism aggregating meta-path information for drug-disease association prediction (MPHAM), aiming at effectively integrating heterogeneous information from various sources to enhance prediction accuracy and model interpretability. First, considering the wide range of biological interactions between drugs and diseases, we construct a heterogeneous information network (HIN) to utilize data on drugs, proteins, and diseases. Then, we introduce a meta-path-based feature fusion strategy designed to effectively capture the complex semantics between nodes in the network. By defining meta-paths of multiple lengths and types, information about different relationship types is systematically integrated to generate high-quality node feature representations. Furthermore, the feature fusion strategy incorporates a multi-layer attention mechanism that dynamically assigns weights to the contributions of various meta-paths in the feature aggregation process, significantly improving the model’s capacity to capture important semantic information. Experimental results demonstrate that MPHAM can effectively predict drug-disease association by integrating complex meta-path information, and the prediction accuracy is better than five state-of-the-art methods. The case studies of three classical drugs further demonstrate the more accurate predictive performance of MPHAM in drug-candidate disease association prediction.
+]]></content:encoded>
+<pubDate>WED, 03 DEC 2025 09:17:46 -0400</pubDate>
+<pubDate>WED, 03 DEC 2025 09:17:46 -0400</pubDate>
+</item>
+<item>
+<title>SOCAR: Network-Based Computational Framework to Overcome Acquired Tamoxifen Resistance of MCF7 Cells</title>
+<link>http://ieeexplore.ieee.org/document/11278759</link>
+<guid>http://ieeexplore.ieee.org/document/11278759</guid>
+<content:encoded><![CDATA[
+
+Resistance to anti-cancer drugs remains a major challenge in chemotherapy. Combination therapy using sensitizers has emerged as a promising strategy to restore drug sensitivity in resistant cancer cells. However, experimental screening of sensitizers is laborious and costly, highlighting the need for computational methods that enable systematic and efficient prediction. We developed SOCAR, a network-based computational framework that predicts sensitizer drugs by integrating transcriptome profiles with molecular interaction networks. SOCAR identifies resistance-associated genes and network modules, and quantifies each drug’s potential to reverse these resistance mechanisms. Applied to 4,009 drugs, SOCAR accurately predicted candidate sensitizers for tamoxifen-resistant breast cancer (AUROC = 0.90). In vitro assays validated that all twelve top-ranked candidates significantly reduced cell viability (p < 0.005) when co-administered with tamoxifen. Furthermore, protein activity analyses showed that resistance-module proteins were markedly altered after acquiring resistance but were restored to normal levels following combined treatment (p < 0.05). Collectively, SOCAR provides a systems-level framework for discovering novel sensitizers and elucidating mechanisms of resistance reversal.
+]]></content:encoded>
+<pubDate>FRI, 05 DEC 2025 09:16:31 -0400</pubDate>
+<pubDate>FRI, 05 DEC 2025 09:16:31 -0400</pubDate>
+</item>
+<item>
+<title>H$^{3}$CDR : An Anti-Cancer Drug Response Prediction Model Driven by Heterogeneous and Homogeneous Hybrid Graph Neural Network</title>
+<link>http://ieeexplore.ieee.org/document/11293809</link>
+<guid>http://ieeexplore.ieee.org/document/11293809</guid>
+<content:encoded><![CDATA[
+
+Cancer is a complex and heterogeneous disease, where even patients with the same cancer type may respond differently to treatment regimens. Predicting the therapeutic effects of drugs on cancer based on cancer characteristics is a critical aspect of precision oncology. Currently, most anticancer drug response(CDR) prediction methods rely on extracting features from the cell line-drug bipartite composition. However, these methods often fail to adequately capture the features of both drugs and cell lines, ignoring the homogeneous features of cell lines and drugs and their correlation with deep heterogeneous features. To address these challenges, we propose a novel prediction framework that leverages a heterogeneous and homogeneous hybrid graph neural network named H$^{3}$CDR. H$^{3}$CDR learns the similarity features of cancer cell lines and drugs by fusing their multi-omics data. Additionally, a multi-branch network is employed to extract features from both cell lines and drugs, enabling the identification of potential features. Extensive experiments on the GDSC and CCLE databases demonstrate the superiority of our model. Evaluated by five-fold cross-validation, H$^{3}$CDR achieves an area under the ROC curve (AUC) of 0.8772 and an area under the precision-recall curve (AUPRC) of 0.8819 on the GDSC dataset.
+]]></content:encoded>
+<pubDate>WED, 10 DEC 2025 09:15:52 -0400</pubDate>
+<pubDate>WED, 10 DEC 2025 09:15:52 -0400</pubDate>
+</item>
+<item>
+<title>Synthetic Assessment of Transfer Learning Method From Cell Lines to Single-Cell on Drug Response Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11282492</link>
+<guid>http://ieeexplore.ieee.org/document/11282492</guid>
+<content:encoded><![CDATA[
+
+Drug response prediction is of critical importance in precision medicine and novel drug development, yet it remains highly challenging due to the complexity, high cost, and low success rate of the process. With the rapid advancement of single-cell sequencing technologies, researchers are now able to gain deeper insights into intratumoral clonal heterogeneity and drug resistance mechanisms, thereby the necessity of drug response prediction is underscored at the single-cell level. However, despite the growing availability of single-cell expression data, corresponding drug sensitivity annotations remain extremely scarce, significantly hindering the development and generalization of supervised learning models. To bridge this data gap, transfer learning has emerged as a key strategy, enabling the migration of drug response knowledge learned from bulk cell line data to single-cell contexts. However, most existing studies focus on model development without conducting systematic, comparative evaluations. To address this gap, this study presents the first comprehensive assessment of representative single-cell drug response prediction models based on transfer learning. We perform a multidimensional analysis of these methods-including transfer mechanisms, feature alignment strategies, and predictive performance-using publicly available datasets for empirical benchmarking. It provides valuable methodological guidance for the future selection and design of predictive models, and establishes a foundation for advancing toward clinically actionable single-cell pharmacogenomics.
+]]></content:encoded>
+<pubDate>MON, 08 DEC 2025 09:16:36 -0400</pubDate>
+<pubDate>MON, 08 DEC 2025 09:16:36 -0400</pubDate>
+</item>
+<item>
+<title>iDeep-Cancer: Predicting Cancer-Related circRNA-RBP Binding Sites Using a Hybrid Network Framework</title>
+<link>http://ieeexplore.ieee.org/document/11295939</link>
+<guid>http://ieeexplore.ieee.org/document/11295939</guid>
+<content:encoded><![CDATA[
+
+Interactions among circular RNAs (circRNAs) and RNA-binding proteins (RBPs) involve almost all stages of the circRNA life cycle. Therefore, circRNA-RBP binding site identification is extremely important for the regulation of human diseases. Various approaches have been used to identify RBP binding sites on circRNAs. Sadly, these approaches are frequently constrained by insufficient feature learning and poor scalability. As a result, we provide a novel model named iDeep-cancer that predicts circRNA-RBP interactions solely using circRNA sequences. A hybrid deep learning model and feature encoding are used in the iDeep-cancer technique. In order to create the feature space, feature encoding uses four feature extraction techniques while accounting for the chemical makeup of circRNA sequences. The hybrid network includes an improved dense convolutional network (DenseNet), a bidirectional gated recurrent unit (BiGRU), and a self-attention mechanism (Self-attention). DenseNet is used to learn high-level localized features, and the combination of BiGRU and self-attention captures long-term dependencies in sequences. We conducted ablation tests and compared iDeep-cancer with other cutting-edge techniques on 13 datasets in order to verify its efficacy. Findings indicate that iDeep-cancer performs better than current techniques.
+]]></content:encoded>
+<pubDate>WED, 10 DEC 2025 09:15:53 -0400</pubDate>
+<pubDate>WED, 10 DEC 2025 09:15:53 -0400</pubDate>
+</item>
+<item>
+<title>DeepNhKcr: Explainable Deep Learning Framework for the Prediction of Crotonylation Sites of Non-Histone Lysine in Plants Based on Pre-Trained Protein Language Model</title>
+<link>http://ieeexplore.ieee.org/document/11300848</link>
+<guid>http://ieeexplore.ieee.org/document/11300848</guid>
+<content:encoded><![CDATA[
+
+Lysine crotonylation (Kcr) is an important protein modification occurring after translation in biology, serving an essential function in a range of biological processes in both plants and animals, including the regulation of gene expression, the maintenance of cellular metabolic balance, and the enhancement of photosynthesis. Exploring the detection of Kcr sites is essential for uncovering their biological functions. Nonetheless, conventional experimental approaches for detection are often time-consuming, expensive, and hindered by various technical constraints, making the precise identification of Kcr sites a significant challenge. This study seeks to develop a computational approach for the rapid and accurate prediction of Kcr sites in plant non-histone proteins. We introduce a novel deep learning framework named DeepNhKcr, which integrates the protein language model (ESM2) with a bidirectional long short-term memory (BiLSTM) network. To address the challenge of data imbalance, the model replaces the conventional cross-entropy loss with the focal loss function. In addition, DeepNhKcr combines advanced deep learning approaches with traditional protein encoding strategies to enable effective feature extraction and integration. This method not only significantly boosts the accuracy of predicting Kcr sites in non-histone proteins of plants. but also provides interpretability, shedding light on the potential links between key sequence characteristics and their biological roles. DeepNhKcr delivers outstanding results, surpassing existing machine learning and deep learning models, and demonstrating excellent performance in both five-fold cross-validation and independent test experiments. Moreover, the model integrates interpretability analysis techniques to investigate the connections between important sequence features and their biological roles. DeepNhKcr acts as a powerful method for detecting Kcr sites in plant non-histone proteins and is anticipated to greatly advance future studies in plant Kcr site prediction.
+]]></content:encoded>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+</item>
+<item>
+<title>Multi-DeepProtGraphGO: Integrating GCN on PPI Networks With Sequence-Driven Convolutional Bi-LSTM and Attention for Protein Function Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11300816</link>
+<guid>http://ieeexplore.ieee.org/document/11300816</guid>
+<content:encoded><![CDATA[
+
+Researchers in bioinformatics use protein function prediction to classify proteins, study their roles in disease mechanisms. Many mechanisms have been proposed to address the significant gap between the rapid increase in identified proteins and the slower growth in annotated protein functions. While PPI network data can assist in protein function prediction, it is often overlooked. Moreover, existing approaches primarily rely on node2vec embeddings of PPI data, neglecting valuable information about the neighborhood relationships of proteins. In this paper, we proposed a novel multi-modal approach that leverages a Graph Convolutional Network (GCN) to analyze PPI network data and explore neighboring proteins. Additionally, we employ Multi-Head Self-Attention combined with a Convolutional Bi-LSTM on protein sequence data to enhance the prediction of protein functions. To evaluate the effectiveness of our method, we utilize benchmark datasets, specifically from homo sapiens, such as String database for PPI network information and UniprotKB for protein sequences, ensuring a comprehensive and robust analysis. Extensive experiments demonstrate that the proposed method, Multi-DeepProtGraphGO, achieves improvements of +18.28%, +4.56%, and +6.92% in terms of the $F_{\max}$ score for the BP, CC, and MF sub-ontologies, respectively, compared to the state-of-the-art method CrossPredGO.
+]]></content:encoded>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+</item>
+<item>
+<title>A Proximal Multi-Objective Optimization Method for Incorporation of Polygenic Breeding Values in Genomic Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11288015</link>
+<guid>http://ieeexplore.ieee.org/document/11288015</guid>
+<content:encoded><![CDATA[
+
+Traditional quantitative genetics rely on known pedigrees for estimating polygenic breeding values and variance components. With the advent of high-throughput sequencing, estimation of empirical relationships between individuals have become feasible. The single-step genomic BLUP procedure integrates polygenic and genomic information but requires intricate pedigree connections, leading to computationally demanding matrix operations. Here, we propose DYpREG, a flexible proximal operator multi-objective regularization method. DYpREG is a splitting algorithm that accommodates two distinct loss functions and a regularization function that can be chosen as LASSO, ridge regression (RR) or elastic net (EN). Notably, it incorporates pre-calculated breeding values without the need for extensive relationship matrix computations. Evaluated on two traits with different heritabilities from mice and pig, DYpREG with RR regularizer showed the best predictive performance compared to DYpREG with LASSO and EN regularizers as well as to all methods lacking polygenic information. The mean squared error (MSE) reduction was notable for both mice traits (1.5% and 24.77%) and both pig traits (2.8% and 2.1%). Comparative analyses with Bayesian reproducing kernel Hilbert space (RKHS) and spike-and-slab (BayesC) regression also revealed consistent improvements. Hence, DYpREG effectively integrates polygenic information, enhancing prediction accuracy in genomic evaluations.
+]]></content:encoded>
+<pubDate>TUE, 09 DEC 2025 09:16:03 -0400</pubDate>
+<pubDate>TUE, 09 DEC 2025 09:16:03 -0400</pubDate>
+</item>
+<item>
+<title>A Multi-Modal Contrastive Learning Framework for Cyclic Peptide Permeability Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11298434</link>
+<guid>http://ieeexplore.ieee.org/document/11298434</guid>
+<content:encoded><![CDATA[
+
+Cyclic peptides represent a rapidly growing class of therapeutics, yet their development is often hindered by the challenge of predicting cell membrane permeability, a critical determinant of drug efficacy. Existing computational methods often struggle to integrate the diverse structural information inherent in these complex molecules, resulting in suboptimal predictive accuracy. Here, we introduce MCPerm, a multi-modal deep learning framework that synergistically integrates 1D SMILES, 2D topological, and 3D geometric information through a novel modality share and contrastive learning strategy to accurately predict cyclic peptide permeability. MCPerm fine-tunes a pretrained peptide language model for SMILES encoding and uses a parameter-sharing graph transformer for structural representation, while a dual contrastive learning mechanism enforces representational consistency both within and between modalities. On the benchmark PAMPA dataset, MCPerm achieves state-of-the-art performance, significantly outperforming leading methods. We further demonstrate its robustness and competitive transferability across three independent assays (Caco-2, MDCK, and RRCK). Our work presents a robust in silico framework that holds potential to accelerate the rational design and discovery of cell-permeable cyclic peptide drugs. Furthermore, to move beyond predictive accuracy, we introduced an attention-based visualization analysis. The results demonstrate that our model is not a “black box”; it has learned key chemical principles governing cyclic peptide permeability.
+]]></content:encoded>
+<pubDate>THU, 11 DEC 2025 09:16:18 -0400</pubDate>
+<pubDate>THU, 11 DEC 2025 09:16:18 -0400</pubDate>
+</item>
+<item>
+<title>SMENET: A Multi-View Semantic Model for Multi-Level Enzyme Function Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11299574</link>
+<guid>http://ieeexplore.ieee.org/document/11299574</guid>
+<content:encoded><![CDATA[
+
+Comprehending biological reproduction and cellular metabolism is facilitated by the Enzyme Commission, which matches protein sequences to the biochemical reactions they catalyse through EC numbers. In recent years, several methods have been proposed for predicting enzyme function. However, these methods still encounter challenges. Firstly, traditional methods for manually designing enzyme features are complex and cumbersome, lacking an effective generalized method for embedding enzyme sequences. Secondly, the distribution gap between different enzymes is significant, which resulting in existing methods struggling to predict multilevel enzyme functions. Thirdly, traditional enzyme function prediction models only extract single view feature of enzyme, so there is still room for further improving the ability of these models to extract enzyme data. To address these challenges, a new multilevel enzyme function prediction model (SMENET) based on multi-view semantics is proposed. This method uses protein large language model to extract semantic information. Subsequently, this semantic information is fed into multiple information extraction network modules, followed by using Biologic Sematic Attention to integrate these views’ information. Finally, a multi-view adaptive fusion network is designed to extract the best common representation between multiple semantic views. Extensive experiments were conducted on multiple datasets to validate the effectiveness of SMENET.
+]]></content:encoded>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+</item>
+<item>
+<title>DriverMONI: Cancer Driver Gene Prediction With Multimodal Deep Learning Integrating Multiomics Data and Condition-Specific Network Information</title>
+<link>http://ieeexplore.ieee.org/document/11300814</link>
+<guid>http://ieeexplore.ieee.org/document/11300814</guid>
+<content:encoded><![CDATA[
+
+In the past few decades, several methods, ranging from statistical algorithms to deep learning models, have been proposed for driver gene identification. Although recent graph neural network-based methods have achieved progress using biological networks, the static and incomplete nature of networks can compromise the predictive power of the models. Here, we introduce a multimodal approach for driver gene prediction called DriverMONI that leverages pairs of complementary information from multiomics data and biological networks. In particular, DriverMONI utilizes condition-specific subnetworks of protein-protein interaction for generating input graphs and node attributes for graph attention network, which makes the model condition-specific and improves prediction accuracy. We empirically show the importance of multimodality and the ability of DriverMONI to mitigate the incompleteness of protein-protein interaction networks. In addition, comparative analysis showed that DriverMONI achieved the best performance among competing methods including graph neural network-based models using The Cancer Genome Atlas data, while having a strong consensus with other methods.
+]]></content:encoded>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+</item>
+<item>
+<title>HECLCDA:CircRNA–Drug Sensitivity Prediction via Heterogeneous Cross-Scale Contrastive Learning</title>
+<link>http://ieeexplore.ieee.org/document/11300978</link>
+<guid>http://ieeexplore.ieee.org/document/11300978</guid>
+<content:encoded><![CDATA[
+
+Circular RNA (circRNA) is a widely distributed class of non-coding RNA molecules that have been shown to play a significant role in cancer development and drug resistance, significantly influencing cellular sensitivity to therapeutic drugs and treatment outcomes. However, traditional biomedical experimental methods are limited by low efficiency and high costs when verifying the association between circular RNA and drug sensitivity. Therefore, developing an efficient and accurate computational method to predict new associations between circRNA and drug sensitivity has become an urgent need in current research. To address this, this study proposes HECLCDA, a novel method based on heterogeneous cross-scale contrastive learning. To construct a comprehensive initial information base for drugs and circRNAs, circRNA gene sequence similarity, drug structural inclusion similarity (SIS), and Gaussian kernel similarity were integrated.Based on the integrated and complete known information of circRNAs and drugs, a heterogeneous graph was built. The model used the Heterogeneous Graph Transformer to extract heterogeneous network topological information, effectively distinguishing the heterogeneity of nodes and edges. The model broke through the information relationship between node attributes and network topology at two scales, and innovatively introduced a cross-scale contrastive learning mechanism in a sparse labeling scenario. Using self-supervised signals, we aimed to enhance the discriminative power of node embeddings and maximize the mutual information between paired nodes at different scales. Cross-validation experiments demonstrated that HECLCDA performs excellently on real data and can efficiently predict drug sensitivity. Additionally, case studies further validate the model’s effectiveness in predicting potential circRNA-drug sensitivity associations.
+]]></content:encoded>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+<pubDate>MON, 15 DEC 2025 09:16:17 -0400</pubDate>
+</item>
+<item>
+<title>MOCT: A Multi-Class Oblique Tree Algorithm for Synergistic Drug Combination Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11303859</link>
+<guid>http://ieeexplore.ieee.org/document/11303859</guid>
+<content:encoded><![CDATA[
+
+Machine learning has been successfully applied to drug combination prediction in recent years. However, in some situations, the class imbalance problem still shows highly negative impacts on the modeling process, which cannot be directly handled by traditional methods. In addition, the interpretability of models is another key point for biological and medical experts. In this study, a clustering-based oblique decision tree (MOCT) algorithm is proposed to extract interpretable knowledge for the multi-class datasets. It firstly clusters samples of different classes, and then a proper feature subspace is generated to split data and forms a nonleaf node. Unlike traditional decision trees, our MOCT only grows one none-leaf node in each layer to generate a concise tree structure. Datasets of drug combinations were collected from three cell lines with three classes (Additive, Antagonism, and Synergy) in experiments, and the results show that our MOCT algorithm is superior to other methods with better interpretability.
+]]></content:encoded>
+<pubDate>THU, 18 DEC 2025 09:16:27 -0400</pubDate>
+<pubDate>THU, 18 DEC 2025 09:16:27 -0400</pubDate>
+</item>
+<item>
+<title>DeepR2OM: Accurate Recognition for RNA 2′-O-Methylation Sites in Human Genome Using Deep Learning</title>
+<link>http://ieeexplore.ieee.org/document/11313582</link>
+<guid>http://ieeexplore.ieee.org/document/11313582</guid>
+<content:encoded><![CDATA[
+
+2′-O-methylation (2OM) of ribose is a widespread RNA modification that significantly impacts RNA stability, structure, and function. Accurately predicting 2OM sites is crucial for understanding RNA's biological functions and related pathologies. Traditional detection methods pose challenges such as resource intensiveness, potential RNA sample damage, and high costs. However, recent advancements in machine learning, particularly deep learning techniques, offer rapid and cost-effective prediction solutions. In this study, we introduce DeepR2OM, a novel method integrating feature selection and deep learning for 2OM sites prediction. DeepR2OM encodes sequences using eight RNA descriptors, employs feature selection algorithms to reduce dimensions, and then utilizes a deep learning network for training. After evaluating various deep learning architectures, we selected Convolutional Neural Network (CNN), Multi-Head Self-Attention mechanism, and Deep Neural Network (DNN) as our final prediction models. Experimental results demonstrate DeepR2OM's effectiveness, achieving 87.1% accuracy (ACC), 85.5% recall rate (Recall), 87.9% precision (PRE), and a Matthews correlation coefficient (MCC) of 75.7% on an independent test set. This tool serves as a valuable resource for exploring the functional and bioinformatic aspects of 2OM sites.
+]]></content:encoded>
+<pubDate>TUE, 23 DEC 2025 09:16:35 -0400</pubDate>
+<pubDate>TUE, 23 DEC 2025 09:16:35 -0400</pubDate>
+</item>
+<item>
+<title>MISF: Multimodal Data Integration Through Adaptive Similarity Learning and Matrix Factorization</title>
+<link>http://ieeexplore.ieee.org/document/11303105</link>
+<guid>http://ieeexplore.ieee.org/document/11303105</guid>
+<content:encoded><![CDATA[
+
+Single-cell multimodal data can simultaneously provide cellular features at different levels, such as gene expression, chromatin accessibility, and spatial location. The integration of multimodal data can efficiently utilize the information from various views, thereby enhancing the reliability and accuracy of cellular research. The current integration methods mainly focus on obtaining the representation of cells but neglect the representation of genes, not beneficial to cell type-specific gene module analyses. Besides, some integration algorithms only can integrate multi-omics data and cannot be applied to spatial transcriptome data for integrating transcriptomic data and spatial location. To this end, we propose MISF, a Multimodal data Integration algorithm based on adaptive Similarity network learning and matrix Factorization. MISF integrates multimodal data and learns the lower-dimensional representations of cells and genes. We validate the feasibility of MISF on multiple single-cell multi-omics data and spatial transcriptome data and compare it with the existing multi-omics data integration methods as well as spatial transcriptome data analysis algorithms. The results demonstrate that MISF can effectively integrate multimodal data, localize different types of cell clusters, and outline cellular spatial distribution pattern. Furthermore, MISF facilitates cell clustering and cell type-specific gene module analyses, providing new insights for the study of cellular heterogeneity.
+]]></content:encoded>
+<pubDate>WED, 17 DEC 2025 09:17:07 -0400</pubDate>
+<pubDate>WED, 17 DEC 2025 09:17:07 -0400</pubDate>
+</item>
+<item>
+<title>SG-DCNN: A Deep Learning Method Integrating Self-Attention Mechanism and Generative Adversarial Network for Predicting Ion-Ligand Binding Residues in Small Samples</title>
+<link>http://ieeexplore.ieee.org/document/11303098</link>
+<guid>http://ieeexplore.ieee.org/document/11303098</guid>
+<content:encoded><![CDATA[
+
+The execution of most protein functions relies on the binding of ion ligands. Therefore,The accurate prediction of binding residues of proteins and ion ligands plays a crucial role in the execution of protein functions. However, due to the small sample size and class imbalance of small sample ion ligands, enhancing the prediction accuracy of binding residues remains challenging. This paper introduces a novel integrated algorithm, SG-DCNN, which combines Generative Adversarial Network (GAN) and Self-Attention within the Deep Convolutional Neural Network (DCNN) framework. Firstly, the theoretical analysis assesses the effectiveness of SG-DCNN in enhancing prediction accuracy. Subsequently, eight small sample ion ligands are chosen for experimental validation. The results demonstrate that SG-DCNN achieves an independent testing accuracy of 78.3% for Sn and a Matthews correlation coefficient (Mcc) of 0.23, outperforming previous prediction methods. The programs and materials utilized in this study can be accessed at (https://github.com/wahah0414/SG-DCNN.git).
+]]></content:encoded>
+<pubDate>WED, 17 DEC 2025 09:17:07 -0400</pubDate>
+<pubDate>WED, 17 DEC 2025 09:17:07 -0400</pubDate>
+</item>
+<item>
+<title>GALA: Integrating Weighted Graph Walks and Latent-Space Adversarial Training for Single-Cell Batch Alignment</title>
+<link>http://ieeexplore.ieee.org/document/11304553</link>
+<guid>http://ieeexplore.ieee.org/document/11304553</guid>
+<content:encoded><![CDATA[
+
+Single-cell RNA sequencing (scRNA-seq) enables unprecedented exploration of cellular heterogeneity, yet technical variations across datasets introduce pervasive batch effects that severely compromise integrative analysis. We present Graph-based Adversarial Latent Alignment (GALA), a novel batch correction framework that synergistically integrates weighted graph random walks with latent space adversarial training to robustly align scRNA-seq data while preserving critical biological signals. GALA employs a Weighted Graph Mutual Nearest Neighbor (WGMNN) module that achieves up to 125% improvement in cross-batch cell pairing diversity and 48% increase in coverage compared to conventional approaches, substantially enhancing the detection of biologically meaningful correspondences between batches. These optimized cell pairs guide adversarial training within a carefully designed low-dimensional latent space, generating batch-agnostic representations that simultaneously eliminate technical artifacts while faithfully preserving biological variability. Evaluated across five benchmark datasets representing diverse real-world scenarios—including identical cell types, non-identical cell types, and complex multi-batch settings—GALA demonstrates robust performance in batch correction and biological signal preservation, achieving high F1 scores of 0.91, 0.82, 0.88, 0.82, and 0.76, respectively. GALA outperforms established methods including Seurat v4, Harmony, and Scanorama, with notable advantages in challenging datasets with heterogeneous cell populations. Aggregating performance across all datasets, GALA achieves the highest overall integration score and best average rank while maintaining high computational efficiency, demonstrating consistent superiority and strong robustness across diverse scRNA-seq integration scenarios.
+]]></content:encoded>
+<pubDate>FRI, 19 DEC 2025 09:19:11 -0400</pubDate>
+<pubDate>FRI, 19 DEC 2025 09:19:11 -0400</pubDate>
+</item>
+<item>
+<title>Multi-Head Hypergraph Convolution With Feature Enhancement and Latent Representation Learning for miRNA–Disease Association Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11304175</link>
+<guid>http://ieeexplore.ieee.org/document/11304175</guid>
+<content:encoded><![CDATA[
+
+The association between miRNAs and diseases is crucial forunderstanding pathological mechanisms. However, existing methods often struggle to capture deep topological structures and suffer significant performance degradation under sparse associations. To address these challenges, we propose FKAMHV, a novel framework that integrates Fast Kolmogorov-Arnold Networks (FastKAN) and Multi-Head Hypergraph Convolution Networks (Multi-Head HGCN) to extract deep topological features, and incorporates $\beta$-Variational Autoencoder ($\beta$-VAE) to uncover latent associations. First, we construct heterogeneous networks based on functional, semantic, and Gaussian kernel similarities, and generate miRNA and disease specific hypergraphs using the K-nearest neighbors (KNN) algorithm. Next, FastKAN is employed to perform nonlinear modeling of node features, enhancing their representational capacity, and is combined with Multi-Head HGCN to strengthen the joint representation of structural and attribute information. To extract high-order topological features while avoiding redundancy, we introduce edge attention weights, a channel-wise squeeze-and-excitation (SE) mechanism, and a Jumping Knowledge strategy in the Multi-Head HGCN. Finally, $\beta$-VAE is used to model latent association distributions, where the $\beta$ coefficient serves as a regularization factor to balance reconstruction accuracy and latent space disentanglement, thereby improving generalization under sparse conditions. A learnable coefficient is introduced to fuse the outputs of the two modules for final prediction. Experimental results show that FKAMHV outperforms existing methods in terms of AUC and AUPR, and also achieves strong performance under sparse scenarios.
+]]></content:encoded>
+<pubDate>THU, 18 DEC 2025 09:16:27 -0400</pubDate>
+<pubDate>THU, 18 DEC 2025 09:16:27 -0400</pubDate>
+</item>
+<item>
+<title>Asynchronous Controllability of Non-Homogeneous Markov Switch Generalized Asynchronous Boolean Control Networks With Deterministic Dwell Time</title>
+<link>http://ieeexplore.ieee.org/document/11310804</link>
+<guid>http://ieeexplore.ieee.org/document/11310804</guid>
+<content:encoded><![CDATA[
+
+This study investigates the asynchronous controllability of non-homogeneous Markov switch generalized asynchronous Boolean control networks (NMHGABCNs) and random switching signals in these networks, aiming to follow a non-homogeneous Markov process. The controllability of the proposed networks is achieved using the discrepancy between the Markov chain mode and the control mode. Assisted by the semi-tensor product (STP), the algebraic forms of the NMHGABCNs are obtained, and the sufficient and necessary criteria for their asynchronous controllability are derived. The effectiveness of controllability is demonstrated through two examples, which validate the theoretical results.
+]]></content:encoded>
+<pubDate>MON, 22 DEC 2025 09:17:24 -0400</pubDate>
+<pubDate>MON, 22 DEC 2025 09:17:24 -0400</pubDate>
+</item>
+<item>
+<title>HHGSynergy: An Adaptive Heterogeneous Hypergraph Representation Learning Method for Anticancer Drug Synergy Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11315146</link>
+<guid>http://ieeexplore.ieee.org/document/11315146</guid>
+<content:encoded><![CDATA[
+
+Compared with monotherapy, combination drug therapy plays a crucial role in clinical treatment. However, the exponential expansion of the drug combination space has rendered traditional exploration methods for synergistic drug combinations inadequate. Recently, numerous efficient and accurate computational approaches have been developed to predict anticancer drug synergy, particularly those leveraging hypergraphs to model the multifaceted relationships between drug combinations and cell lines, which have demonstrated remarkable potential. Nevertheless, existing hypergraph-based methods fail to account for the heterogeneity of anticancer synergy hypergraphs and overlook the underlying similarities among drugs and cell lines, thereby limiting their ability to fully capture the complex interactions between drug combinations and cell lines. To address these limitations, we propose an Adaptive Heterogeneous Hypergraph Representation Learning Method (HHGSynergy) for predicting anticancer drug synergy, enabling more precise identification of synergistic drug combinations. Specifically, our framework first constructs drug/cell line similarity-based synergy hypergraphs based on the foundational anticancer synergy hypergraph, thereby establishing a comprehensive heterogeneous hypergraph. Next, a node importance calculation module is employed to learn both local and global importance weights of nodes, effectively capturing the structural characteristics of the hypergraph. Finally, a type-specific multi-head attention mechanism is utilized to iteratively update node embeddings, adaptively learning the significance of heterogeneous hyperedges. Experimental results demonstrate that HHGSynergy achieves state-of-the-art performance in both classification and regression tasks across diverse experimental scenarios, outperforming existing leading models. Case studies further underscore its potential for discovering novel synergistic drug combinations.
+]]></content:encoded>
+<pubDate>THU, 25 DEC 2025 09:16:02 -0400</pubDate>
+<pubDate>THU, 25 DEC 2025 09:16:02 -0400</pubDate>
+</item>
+<item>
+<title>Drug Effect Classification Using Frequency-Based Graph Traversal Approach</title>
+<link>http://ieeexplore.ieee.org/document/11316391</link>
+<guid>http://ieeexplore.ieee.org/document/11316391</guid>
+<content:encoded><![CDATA[
+
+Classifying drugs into symptomatic (SYM) and disease-modifying (DM) categories is essential for understanding their therapeutic effect and plays a key role in drug repurposing. While many computational approaches focus on drug–target prediction, they often ignore the nature of the drug’s action on disease progression. This study proposes a graph-based strategy to classify drugs as SYM or DM based on their effect on disease treatment. We construct a heterogeneous network comprising genes, diseases, and drugs, and apply a guided shortest path traversal framework for drug effect classification. During this traversal, certain genes appear frequently in the shortest metapaths linking diseases and drugs. These recurrent genes are identified based on their frequency of occurrence in known drug–disease paths. For a new drug–disease pair, if the traversal path contains recurrent genes marked for a specific treatment type, we classify the drug accordingly. Over and above classifying the drugs, the proposed method incorporates the metapath-based framework to improve interpretability. Experimental results show that our model achieves significantly better classification accuracy compared to advanced machine learning and deep learning methods. A case study on multiple sclerosis further supports the biological relevance of our approach.
+]]></content:encoded>
+<pubDate>FRI, 26 DEC 2025 09:15:41 -0400</pubDate>
+<pubDate>FRI, 26 DEC 2025 09:15:41 -0400</pubDate>
+</item>
+<item>
+<title>Multimodal Hypergraph Representation Learning for Drug Synergy Prediction</title>
+<link>http://ieeexplore.ieee.org/document/11316844</link>
+<guid>http://ieeexplore.ieee.org/document/11316844</guid>
+<content:encoded><![CDATA[
+
+Drug combination therapy for complex diseases is currently widely utilized in clinical treatment. An increasing number of computational methods are being adopted to discover new drug combinations. However, most existing methods mainly focus on phenotypes, while ignoring the deep level interactions between drug pairs and cell lines. In this paper, we introduce a multimodal hypergraph representation learning approach named MHGSynergy, aimed at predicting drug synergies. MHGSynergy models the synergistic relationship as a hypergraph by considering the structure, targets, and physicochemical features of drugs. The nodes represent drugs and cell lines, and hyperedges capture synergistic triplets of drug pairs and cell lines. Different drug features are used as attributes of drug nodes in the hypergraph to construct three hypergraphs. Hypergraph neural networks are employed to update embedding features of drugs and cell lines, then input these embedding features into the channel attention fusion module to obtain a comprehensive representation. Finally, these representations are used to build predictive models. In both classification and regression tasks, MHGSynergy performs well on two benchmark datasets, and outperforming those baseline methods, and MHGSynergy has unique advantages when facing unknown drug pairs or cell lines. We believe that MHGSynergy is a valuable tool for discovering synergistic drug combinations.
+]]></content:encoded>
+<pubDate>MON, 29 DEC 2025 09:17:12 -0400</pubDate>
+<pubDate>MON, 29 DEC 2025 09:17:12 -0400</pubDate>
+</item>
+<item>
+<title>Efficient Tuning Framework for Resource- Constrained Biomedical Question Answering</title>
+<link>http://ieeexplore.ieee.org/document/11328997</link>
+<guid>http://ieeexplore.ieee.org/document/11328997</guid>
+<content:encoded><![CDATA[
+
+Automatic question-answering systems demonstrate valuable utility in the biomedical domain, improving the precision and efficiency of clinical decision-making significantly. Despite large-scale language models achieving notable success in general domains, even outperforming human-level performance in certain aspects, they are still faced with challenges such as data privacy and scarcity in the special domain. This study explores the method for efficient fine-tuning under resource-constrained conditions in the biomedical field. We propose a multi-stage fine-tuning approach that effectively improves the performance of pre-trained language models in biomedical question-answering tasks. Specially, A multi-prompt-based contrastive learning strategy and a multi-prompt self-consistency voting module are introduced, which improve the accuracy of QA tasks. The experiments on the PubMedQA dataset under reasoning-required settings indicate that our approach outperforms domain-specific pre-training models and achieves comparable performance with GPT-4, while the number of fine-tuned parameters is much less than the total parameters of the base model.
+]]></content:encoded>
+<pubDate>MON, 05 JAN 2026 09:15:58 -0400</pubDate>
+<pubDate>MON, 05 JAN 2026 09:15:58 -0400</pubDate>
+</item>
+<item>
+<title>Dynamic Bernstein GCN for Pan-Cancer Subtype Classification Using RNA-Seq and CNV Data</title>
+<link>http://ieeexplore.ieee.org/document/11340709</link>
+<guid>http://ieeexplore.ieee.org/document/11340709</guid>
+<content:encoded><![CDATA[
+
+Cancer subtype classification requires capturing complex multi-omics interactions that conventional machine learning models often struggle to represent effectively. Graph Convolutional Networks (GCNs) leverage biological topologies but typically rely on fixed propagation mechanisms, which limit adaptability to diverse graph structures. This study introduces the Dynamic Bernstein Graph Convolutional Network (DB-GCN), a novel architecture that employs adaptive spectral propagation using Bernstein polynomials to enable topology-aware learning without eigendecomposition. DB-GCN supports single-omics (RNA) and multi-omics (RNA+CNV) inputs within a graph-based framework that represents genes as nodes and interactions as edges derived from gene–gene, protein–protein, and Co-expression networks. A dual-stream design combines a Bernstein graph stream with an omics multilayer perceptron to capture both local and global features. In pan-cancer experiments on 28 TCGA subtypes, DB-GCN achieves 86.05% $\pm$ 0.83 on STRING, 85.86% $\pm$ 0.98 on BioGRID, and 85.88% $\pm$ 0.71 on Co-expression for the 2,000-gene multi-omics setting. SHAP-based analysis identifies putative biomarker genes such as KLK11, OR4F15, and UBE2DNL, and 12 of the top 50 genes map to KEGG cancer pathways. These results indicate that DB-GCN provides an accurate and interpretable graph-based framework for pan-cancer subtype classification and biomarker discovery in precision oncology.
+]]></content:encoded>
+<pubDate>MON, 12 JAN 2026 09:21:47 -0400</pubDate>
+<pubDate>MON, 12 JAN 2026 09:21:47 -0400</pubDate>
+</item>
+<item>
+<title>2025 Reviewers List*</title>
+<link>http://ieeexplore.ieee.org/document/11372648</link>
+<guid>http://ieeexplore.ieee.org/document/11372648</guid>
+<content:encoded><![CDATA[
+
+null
+]]></content:encoded>
+<pubDate>WED, 04 FEB 2026 09:17:51 -0400</pubDate>
+<pubDate>WED, 04 FEB 2026 09:17:51 -0400</pubDate>
+</item>
+
+</channel>
+</rss>

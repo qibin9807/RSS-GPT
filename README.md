@@ -55,4 +55,4 @@ These feeds on hosted in the [`docs/` subdirectory](https://github.com/yinan-c/R
 
 I will consider hosting more feeds in the future. Email me or submit an issue if there are any questions using the script or any suggestions.
 
-- https://brett.trpstra.net/brettterpstra -> https://qibin9807.github.io/RSS-GPT/brett-terpstra.xml
+- https://ieeexplore.ieee.org/rss/TOC10723156.XML -> https://qibin9807.github.io/RSS-GPT/IEEE TCB.xml
